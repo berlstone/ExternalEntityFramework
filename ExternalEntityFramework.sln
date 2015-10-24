@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{635881EF-F5A6-40F8-B518-20D56212F9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FDA366F6-84B5-4967-B032-0F12B6A21563}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExternalEntityFramework", "src\ExternalEntityFramework\ExternalEntityFramework.xproj", "{0C240DED-E815-497E-B3E8-FFF7EF775C22}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExternalEntityFramework.Data", "src\ExternalEntityFramework.Data\ExternalEntityFramework.Data.xproj", "{2B875AD8-A904-40D4-81CC-CC16F5BF4813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C240DED-E815-497E-B3E8-FFF7EF775C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C240DED-E815-497E-B3E8-FFF7EF775C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C240DED-E815-497E-B3E8-FFF7EF775C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C240DED-E815-497E-B3E8-FFF7EF775C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B875AD8-A904-40D4-81CC-CC16F5BF4813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B875AD8-A904-40D4-81CC-CC16F5BF4813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B875AD8-A904-40D4-81CC-CC16F5BF4813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B875AD8-A904-40D4-81CC-CC16F5BF4813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C240DED-E815-497E-B3E8-FFF7EF775C22} = {635881EF-F5A6-40F8-B518-20D56212F9D6}
+		{2B875AD8-A904-40D4-81CC-CC16F5BF4813} = {635881EF-F5A6-40F8-B518-20D56212F9D6}
+	EndGlobalSection
+EndGlobal
